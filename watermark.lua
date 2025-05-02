@@ -26,7 +26,7 @@ local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
 --Properties:
 
 MainFrame.Name = "MainFrame"
-MainFrame.Parent = Instance.new("ScreenGui", player.PlayerGui)
+MainFrame.Parent = Instance.new("ScreenGui", gethui())
 MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 MainFrame.BackgroundTransparency = 1.000
 MainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
