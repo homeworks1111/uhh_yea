@@ -189,7 +189,7 @@ Discord.TextWrapped = true
 Discord.TextXAlignment = Enum.TextXAlignment.Right
 
 UITextSizeConstraint_2.Parent = Discord
-UITextSizeConstraint_2.MaxTextSize = 50
+UITextSizeConstraint_2.MaxTextSize = 19
 
 task.spawn(function()
 	while true do
