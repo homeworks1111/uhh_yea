@@ -193,6 +193,9 @@ UITextSizeConstraint_2.MaxTextSize = 19
 
 task.spawn(function()
 	while true do
+		if not getgenv().config.watermarkEnabled then
+			continue
+		end
 		for i=1, 10 do
 			local frame = Animation:FindFirstChild(tostring(i))
 
